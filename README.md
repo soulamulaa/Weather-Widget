@@ -1,9 +1,3 @@
-# Weather-Widget
-Big ups @SneakyCode Only thing i added is ip baced location or GPS Baced   It opens a local host (Need  Internet)
-
-
-
-
 # Widget GPS + Weather (PyQt + local browser geo)
 
 This small app launches a local web server (`localhost:8000`) and opens a browser tab to request geolocation. It then fetches weather data for that location and displays it in a frameless PyQt window.
