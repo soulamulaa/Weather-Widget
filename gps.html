@@ -1,0 +1,10 @@
+
+    <html>
+    <script>
+    navigator.geolocation.getCurrentPosition(function(pos){
+        fetch(`http://localhost:8000/coords?lat=${pos.coords.latitude}&lon=${pos.coords.longitude}`);
+    });
+    </script>
+    <body>Getting location...</body>
+    </html>
+    
